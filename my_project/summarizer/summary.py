@@ -6,6 +6,7 @@ load_dotenv(find_dotenv())
 
 openai.api_key = os.environ.get("api_key")
 
+OPENAI_API_KEY = os.environ.get("api_key")
 
 def summarize(text):
     # create prompt
